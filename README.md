@@ -1,0 +1,1 @@
+# SMG social assets
