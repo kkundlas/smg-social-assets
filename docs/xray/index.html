@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X-RAY TREND BOARD · Shield Medical Group</title>
+  <meta name="description" content="Shield Medical Group X-RAY Trend Board. Last complete day 28 Aug 2026. Windows 3d / 7d / 30d / 1y. Never 24h.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --teal: #12343B;
+      --teal-ink: #0C2429;
+      --teal-lift: #1A444C;
+      --yellow: #F5D10A;
+      --cream: #F4F3EE;
+      --dead: #E11D2E;
+      --muted: #9BB0B4;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      background: var(--teal);
+      color: var(--cream);
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      min-height: 100%;
+    }
+
+    body {
+      padding: 28px 36px 48px;
+    }
+
+    h1, h2, h3, .display {
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      color: var(--yellow);
+      line-height: 0.95;
+    }
+
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    header.mast {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 28px;
+      margin-bottom: 28px;
+    }
+
+    .logo {
+      height: 72px;
+      width: auto;
+      display: block;
+      flex-shrink: 0;
+    }
+
+    .title-block { flex: 1; min-width: 0; }
+
+    h1 {
+      font-size: clamp(42px, 7vw, 84px);
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: var(--cream);
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+    }
+
+    .honest {
+      background: var(--teal-ink);
+      border-top: 4px solid var(--yellow);
+      padding: 18px 22px 20px;
+      margin: 8px 0 32px;
+    }
+
+    .honest h2 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .honest p {
+      color: var(--cream);
+      font-size: 16.5px;
+      max-width: 72ch;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin-bottom: 40px;
+      border: 1px solid rgba(244, 243, 238, 0.12);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 860px;
+    }
+
+    th {
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 20px;
+      letter-spacing: 0.08em;
+      color: var(--yellow);
+      text-align: left;
+      padding: 12px 14px;
+      background: var(--teal-ink);
+      border-bottom: 1px solid rgba(245, 209, 10, 0.35);
+      font-weight: 400;
+    }
+
+    td {
+      padding: 14px;
+      vertical-align: top;
+      border-bottom: 1px solid rgba(244, 243, 238, 0.1);
+      background: var(--teal);
+    }
+
+    tr:nth-child(even) td { background: var(--teal-lift); }
+
+    .plat {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .plat-name {
+      font-weight: 700;
+      color: var(--cream);
+    }
+
+    .badge {
+      display: inline-block;
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      padding: 3px 8px 2px;
+      line-height: 1;
+    }
+
+    .badge-watch {
+      background: var(--yellow);
+      color: var(--teal);
+    }
+
+    .badge-dead {
+      background: var(--dead);
+      color: #fff;
+    }
+
+    .metric-num {
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 28px;
+      color: var(--cream);
+      letter-spacing: 0.02em;
+      line-height: 1;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .metric-note {
+      color: var(--muted);
+      font-size: 12.5px;
+    }
+
+    .up { color: var(--yellow); }
+
+    section.block { margin-bottom: 40px; }
+
+    section.block h2 {
+      font-size: clamp(32px, 5vw, 48px);
+      margin-bottom: 16px;
+    }
+
+    .means p {
+      margin-bottom: 14px;
+      max-width: 82ch;
+    }
+
+    .means strong.plat-label {
+      color: var(--yellow);
+      font-weight: 900;
+    }
+
+    ol.plan {
+      list-style: none;
+      counter-reset: step;
+      display: grid;
+      gap: 10px;
+    }
+
+    ol.plan li {
+      counter-increment: step;
+      display: grid;
+      grid-template-columns: 44px 1fr;
+      gap: 14px;
+      align-items: start;
+      background: var(--teal-ink);
+      padding: 14px 16px;
+      border-left: 4px solid var(--yellow);
+    }
+
+    ol.plan li::before {
+      content: counter(step);
+      font-family: "Bebas Neue", sans-serif;
+      color: var(--teal);
+      background: var(--yellow);
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+    }
+
+    ol.plan .step-title {
+      font-family: "Bebas Neue", sans-serif;
+      color: var(--yellow);
+      font-size: 22px;
+      letter-spacing: 0.04em;
+      margin-bottom: 2px;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(244, 243, 238, 0.15);
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.7;
+    }
+
+    footer code {
+      color: var(--cream);
+      font-size: 11px;
+    }
+
+    @media (max-width: 720px) {
+      body { padding: 20px 16px 36px; }
+      header.mast { flex-direction: column; }
+      .logo { height: 56px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="mast">
+      <img class="logo" src="shield-logo.png" alt="Shield Medical Group — Quick, Comprehensive and Cost Effective Care">
+      <div class="title-block">
+        <h1>X-RAY TREND BOARD</h1>
+        <p class="subtitle">Kundlas MD · Sebring first, Lake Wales second · last complete day 28 Aug 2026 · windows 3d / 7d / 30d / 1y · never 24h</p>
+      </div>
+    </header>
+
+    <aside class="honest">
+      <h2>The honest picture.</h2>
+      <p>Search finds you. Facebook and Google Business do not. YouTube grows views while people leave earlier. You are building a national symptom encyclopedia and starving the two Florida offices that actually need patients.</p>
+    </aside>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Platform</th>
+            <th>3 Day</th>
+            <th>7 Day</th>
+            <th>30 Day</th>
+            <th>1 Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="plat">
+                <span class="plat-name">YouTube · Kundlas MD</span>
+                <span class="badge badge-watch">WATCH</span>
+              </div>
+            </td>
+            <td>
+              <span class="metric-num">4,076</span>
+              <span class="metric-note"><span class="up">↑ 1,359</span> views/day · AVP 33%</span>
+            </td>
+            <td>
+              <span class="metric-num">8,296</span>
+              <span class="metric-note"><span class="up">↑ 1,185</span> /day · AVP 33%</span>
+            </td>
+            <td>
+              <span class="metric-num">32,867</span>
+              <span class="metric-note"><span class="up">↑ 1,096</span> /day · AVP 33%</span>
+            </td>
+            <td>
+              <span class="metric-num">364,562</span>
+              <span class="metric-note">999 /day · AVP 37%</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="plat">
+                <span class="plat-name">Website · Shieldmedicalgroup.com</span>
+                <span class="badge badge-watch">WATCH</span>
+              </div>
+            </td>
+            <td>
+              <span class="metric-num">1,521</span>
+              <span class="metric-note">clicks · CTR 0.72%</span>
+            </td>
+            <td>
+              <span class="metric-num">3,706</span>
+              <span class="metric-note">CTR 0.73% · pos 7.8</span>
+            </td>
+            <td>
+              <span class="metric-num">16,140</span>
+              <span class="metric-note"><span class="up">↑ 538</span> clicks/day · CTR 0.74%</span>
+            </td>
+            <td>
+              <span class="metric-num">114,876</span>
+              <span class="metric-note">315 /day · CTR 0.63% · pos 6.4</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="plat">
+                <span class="plat-name">Facebook · Sebring</span>
+                <span class="badge badge-dead">DEAD</span>
+              </div>
+            </td>
+            <td>
+              <span class="metric-num">17</span>
+              <span class="metric-note">impr · 2 posts · 0 reactions</span>
+            </td>
+            <td>
+              <span class="metric-num">42</span>
+              <span class="metric-note">impr · 4 posts · 0 comments</span>
+            </td>
+            <td>
+              <span class="metric-num">2,350</span>
+              <span class="metric-note">impr · 31 posts · 2.8% eng</span>
+            </td>
+            <td>
+              <span class="metric-num">10,807</span>
+              <span class="metric-note">impr · 103 posts · 4.7% eng</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="plat">
+                <span class="plat-name">Facebook · Lake Wales</span>
+                <span class="badge badge-dead">DEAD</span>
+              </div>
+            </td>
+            <td>
+              <span class="metric-num">0</span>
+              <span class="metric-note">posts</span>
+            </td>
+            <td>
+              <span class="metric-num">0</span>
+              <span class="metric-note">posts</span>
+            </td>
+            <td>
+              <span class="metric-num">311</span>
+              <span class="metric-note">impr · 12 posts · 1 reaction</span>
+            </td>
+            <td>
+              <span class="metric-num">2,523</span>
+              <span class="metric-note">impr · 47 posts · 11 reactions</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="plat">
+                <span class="plat-name">Google Business · Sebring</span>
+                <span class="badge badge-dead">DEAD</span>
+              </div>
+            </td>
+            <td>
+              <span class="metric-num">0</span>
+            </td>
+            <td>
+              <span class="metric-num">0</span>
+            </td>
+            <td>
+              <span class="metric-num">0</span>
+            </td>
+            <td>
+              <span class="metric-num">—</span>
+              <span class="metric-note">Insights not in</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="plat">
+                <span class="plat-name">Google Business · Lake Wales</span>
+                <span class="badge badge-dead">DEAD</span>
+              </div>
+            </td>
+            <td>
+              <span class="metric-num">0</span>
+            </td>
+            <td>
+              <span class="metric-num">0</span>
+            </td>
+            <td>
+              <span class="metric-num">0</span>
+            </td>
+            <td>
+              <span class="metric-num">—</span>
+              <span class="metric-note">Insights not in</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="plat">
+                <span class="plat-name">TikTok · Kundlasmd</span>
+                <span class="badge badge-dead">DEAD</span>
+              </div>
+            </td>
+            <td>
+              <span class="metric-num">0</span>
+            </td>
+            <td>
+              <span class="metric-num">0</span>
+            </td>
+            <td>
+              <span class="metric-num">202</span>
+              <span class="metric-note">views · 2 posts · 177 reach</span>
+            </td>
+            <td>
+              <span class="metric-num">4,245</span>
+              <span class="metric-note">views · 25 posts · 3,475 reach</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <section class="block means">
+      <h2>What this means</h2>
+      <p><strong class="plat-label">YouTube.</strong> Search is working. Retention is dropping: average view percentage is 33% on the 3-day, 7-day, and 30-day windows against 37% on the 1-year. Cut the next long-form to a 6-minute lesson. Stop Shorts as a priority.</p>
+      <p><strong class="plat-label">Website.</strong> Brand queries convert. Rank is slipping. Stop new articles. Rewrite title and meta on /forearm-pain/ and /knee-numbness/ this week.</p>
+      <p><strong class="plat-label">Facebook Sebring.</strong> One post worked: 15 August, heat and blood-pressure meds. Mirror that style. Do not post class-flyer content like Tai Chi.</p>
+      <p><strong class="plat-label">Facebook Lake Wales.</strong> The page has been dark for a week: 0 posts on the 3-day and 7-day. Mirror Sebring 10 minutes later, rewritten for Polk County.</p>
+      <p><strong class="plat-label">Google Business Sebring.</strong> Zero posts in 30 days. One post this week: medical copy, office photo, hours, Medicare.</p>
+      <p><strong class="plat-label">Google Business Lake Wales.</strong> Mirror Sebring 10 minutes later. Address and hours in line one.</p>
+      <p><strong class="plat-label">TikTok.</strong> The Buffer handle is not the Shield Gmail account. Do not post until that account is linked.</p>
+    </section>
+
+    <section class="block">
+      <h2>Action Plan</h2>
+      <ol class="plan">
+        <li>
+          <div>
+            <div class="step-title">Website</div>
+            Rewrite title/meta on /forearm-pain/ and /knee-numbness/, stop new articles.
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="step-title">Facebook Sebring</div>
+            Next post copies 15 August heat and BP meds, no Tai Chi.
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="step-title">Facebook Lake Wales</div>
+            Same post 10 minutes later for Polk County or turn the page off.
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="step-title">Google Business Sebring</div>
+            One post this week, medical copy, office photo, hours, Medicare.
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="step-title">Google Business Lake Wales</div>
+            Mirror 10 minutes later, address and hours in line one.
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="step-title">YouTube</div>
+            Next video is a 6-minute search answer not a Short.
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="step-title">TikTok</div>
+            Do not post until Buffer is the Shield Gmail account.
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <footer>
+      Sources: vidIQ · Google Search Console · Buffer. Last complete day 28 Aug 2026. Windows 3d / 7d / 30d / 1y. Never 24h.<br>
+      YouTube Kundlas MD <code>UCHSj1rAW7GHqahkulER5mew</code> · Website shieldmedicalgroup.com · Buffer org <code>6a57efe156ba890021371a49</code> · Facebook Sebring <code>6a57f15080cc80cdcabed00d</code> · Facebook Lake Wales <code>6a57f15080cc80cdcabed00b</code> · Google Business Sebring <code>6a62629ce2638b94d7c0d827</code> · Google Business Lake Wales <code>6a62629ce2638b94d7c0d826</code> · TikTok kundlasmd <code>6a94855e065799be4656e2f0</code><br>
+      No invented numbers. Educational only. I do not post.
+    </footer>
+  </div>
+</body>
+</html>
