@@ -7,31 +7,112 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
 <style>
-  :root { --teal: #12343B; --yellow: #F5D10A; --cream: #F4F3EE; --dead: #8B2E2E; --warn: #8A6A12; --line: #1e4a52; }
+  :root {
+    --teal: #12343B;
+    --yellow: #F5D10A;
+    --cream: #F4F3EE;
+    --dead: #8B2E2E;
+    --warn: #8A6A12;
+    --line: #1e4a52;
+  }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--teal); color: var(--cream); font-family: Lato, sans-serif; padding: 28px 32px 44px; min-width: 1180px; }
-  header { display: flex; align-items: center; gap: 18px; margin-bottom: 16px; }
+  body {
+    background: var(--teal);
+    color: var(--cream);
+    font-family: Lato, sans-serif;
+    padding: 28px 32px 44px;
+    min-width: 1180px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 16px;
+  }
   .wordmark { font-family: "Bebas Neue", sans-serif; color: var(--yellow); font-size: 13px; letter-spacing: 2.2px; line-height: 1; }
-  h1 { font-family: "Bebas Neue", sans-serif; font-size: 42px; letter-spacing: 1px; line-height: 1; color: var(--yellow); }
+  h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 42px;
+    letter-spacing: 1px;
+    line-height: 1;
+    color: var(--yellow);
+  }
   .sub { font-size: 13px; opacity: 0.8; margin-top: 4px; }
-  .verdict { background: #0c2429; border-left: 6px solid var(--yellow); padding: 14px 18px; margin: 6px 0 22px; font-size: 16px; line-height: 1.45; max-width: 1100px; }
+  .verdict {
+    background: #0c2429;
+    border-left: 6px solid var(--yellow);
+    padding: 14px 18px;
+    margin: 6px 0 22px;
+    font-size: 16px;
+    line-height: 1.45;
+    max-width: 1100px;
+  }
   .verdict strong { color: var(--yellow); }
-  table { width: 100%; border-collapse: collapse; background: #0e2b31; margin-bottom: 28px; }
-  th, td { border-bottom: 1px solid var(--line); padding: 12px 14px; text-align: left; vertical-align: top; }
-  thead th { font-size: 11px; letter-spacing: 1.4px; text-transform: uppercase; color: var(--yellow); font-weight: 900; background: #0c2429; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #0e2b31;
+    margin-bottom: 28px;
+  }
+  th, td {
+    border-bottom: 1px solid var(--line);
+    padding: 12px 14px;
+    text-align: left;
+    vertical-align: top;
+  }
+  thead th {
+    font-size: 11px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: var(--yellow);
+    font-weight: 900;
+    background: #0c2429;
+  }
   thead th:first-child { width: 26%; }
   thead th:not(:first-child) { width: 18.5%; }
-  .plat { font-family: "Bebas Neue", sans-serif; font-size: 22px; letter-spacing: .5px; display: flex; align-items: center; gap: 10px; }
-  .status { font-family: Lato, sans-serif; font-size: 10px; font-weight: 900; letter-spacing: 1.3px; padding: 3px 7px; }
+  .plat {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+    letter-spacing: .5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .status {
+    font-family: Lato, sans-serif;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 1.3px;
+    padding: 3px 7px;
+  }
   .dead { background: var(--dead); color: #fff; }
   .watch { background: var(--warn); color: #fff; }
   .num { font-size: 22px; font-weight: 900; line-height: 1.1; }
   .meta { font-size: 12px; opacity: .75; margin-top: 3px; }
-  .up { color: #7dce9e; } .dn, .off { color: #e08a8a; } .flat { color: #d8c56a; }
-  h2 { font-family: "Bebas Neue", sans-serif; font-size: 28px; color: var(--yellow); letter-spacing: .6px; margin-bottom: 12px; }
-  .notes p { font-size: 15px; line-height: 1.5; margin-bottom: 14px; max-width: 1100px; }
+  .up { color: #7dce9e; }
+  .dn, .off { color: #e08a8a; }
+  .flat { color: #d8c56a; }
+  h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 28px;
+    color: var(--yellow);
+    letter-spacing: .6px;
+    margin-bottom: 12px;
+  }
+  .notes p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 14px;
+    max-width: 1100px;
+  }
   .notes p strong { color: var(--yellow); }
-  .plan { background: #0e2b31; border: 1px solid #1e4a52; padding: 16px 20px 8px; margin: 8px 0 24px; max-width: 1100px; }
+  .plan {
+    background: #0e2b31;
+    border: 1px solid #1e4a52;
+    padding: 16px 20px 8px;
+    margin: 8px 0 24px;
+    max-width: 1100px;
+  }
   .plan ol { margin: 0 0 8px 22px; }
   .plan li { font-size: 15px; line-height: 1.45; margin-bottom: 10px; }
   .plan li strong { color: var(--yellow); }
@@ -44,44 +125,101 @@
     <div class="wordmark">SHIELD MEDICAL GROUP</div>
     <div>
       <h1>X-RAY TREND BOARD</h1>
-      <div class="sub">Kundlas MD · Sebring first, Lake Wales second · last complete day 29 Aug 2026 · pulled 1 Sep 4 AM ET · windows 3d / 7d / 30d / 1y · never 24h</div>
+      <div class="sub">Kundlas MD · Sebring first, Lake Wales second · last complete day 29 Aug 2026 · pulled 1 Sep 4 AM ET · windows 3d / 7d / 30d / 1y · never 24h · 3d flagged (Aug 30–Sep 1 not final)</div>
     </div>
   </header>
-  <div class="verdict"><strong>The honest picture.</strong> Search still finds you. One Sebring Facebook post last night actually moved. Lake Wales is a ghost page. YouTube prints views and is not a conversation. You are still a national symptom encyclopedia, not a Sebring or Lake Wales PCP.</div>
+
+  <div class="verdict">
+    <strong>The honest picture.</strong> Search still finds you. One Sebring Facebook post last night actually moved. Lake Wales is a ghost page. YouTube prints views and is not a conversation. You are still a national symptom encyclopedia, not a Sebring or Lake Wales PCP.
+  </div>
+
   <table>
-    <thead><tr><th>Platform</th><th>3 day</th><th>7 day</th><th>30 day</th><th>1 year</th></tr></thead>
+    <thead>
+      <tr>
+        <th>Platform</th>
+        <th>3 day</th>
+        <th>7 day</th>
+        <th>30 day</th>
+        <th>1 year</th>
+      </tr>
+    </thead>
     <tbody>
-      <tr><td><div class="plat">YouTube · Kundlas MD <span class="status watch">WATCH</span></div></td><td><div class="num">4,434</div><div class="meta up">views · AVP 32.0% · 1 comment</div></td><td><div class="num">8,762</div><div class="meta up">views · AVP 32.3%</div></td><td><div class="num">33,226</div><div class="meta up">views · AVP 33.2%</div></td><td><div class="num">364,562</div><div class="meta">through 28 Aug · AVP 37%</div></td></tr>
-      <tr><td><div class="plat">Website · shieldmedicalgroup.com <span class="status watch">WATCH</span></div></td><td><div class="num">1,338</div><div class="meta dn">clicks · CTR 0.73% · pos 8.1</div></td><td><div class="num">3,589</div><div class="meta flat">CTR 0.72% · pos 7.9</div></td><td><div class="num">15,984</div><div class="meta">clicks · CTR 0.74% · pos 7.8</div></td><td><div class="num">114,876</div><div class="meta">through 28 Aug · CTR 0.63%</div></td></tr>
-      <tr><td><div class="plat">Facebook · Sebring <span class="status watch">WATCH</span></div></td><td><div class="num">322</div><div class="meta up">impr · DNA-kit video 278 · 1 rxn</div></td><td><div class="num">370</div><div class="meta">impr · 6 posts · 1 rxn</div></td><td><div class="num">2,570</div><div class="meta">impr · 31 posts · 19 rxn</div></td><td><div class="num">10,807</div><div class="meta">through 28 Aug</div></td></tr>
-      <tr><td><div class="plat">Facebook · Lake Wales <span class="status dead">DEAD</span></div></td><td><div class="num">6</div><div class="meta off">impr · 2 posts · 0 engagement</div></td><td><div class="num">6</div><div class="meta off">same 2 posts</div></td><td><div class="num">306</div><div class="meta">impr · 13 posts · 1 rxn</div></td><td><div class="num">2,523</div><div class="meta">through 28 Aug</div></td></tr>
-      <tr><td><div class="plat">Google Business · Sebring <span class="status dead">DEAD</span></div></td><td><div class="num">0</div><div class="meta off">GBP posts</div></td><td><div class="num">0</div><div class="meta off">GBP posts</div></td><td><div class="num">0</div><div class="meta off">GBP posts</div></td><td><div class="num">—</div><div class="meta">Insights not in</div></td></tr>
-      <tr><td><div class="plat">Google Business · Lake Wales <span class="status dead">DEAD</span></div></td><td><div class="num">0</div><div class="meta off">GBP posts</div></td><td><div class="num">0</div><div class="meta off">GBP posts</div></td><td><div class="num">0</div><div class="meta off">GBP posts</div></td><td><div class="num">—</div><div class="meta">Insights not in</div></td></tr>
-      <tr><td><div class="plat">TikTok · kundlasmd <span class="status dead">DEAD</span></div></td><td><div class="num">0</div><div class="meta off">metrics not refreshed</div></td><td><div class="num">0</div><div class="meta off">metrics not refreshed</div></td><td><div class="num">203</div><div class="meta">views · 2 old videos</div></td><td><div class="num">4,245</div><div class="meta">through 28 Aug</div></td></tr>
+      <tr>
+        <td><div class="plat">YouTube · Kundlas MD <span class="status watch">WATCH</span></div></td>
+        <td><div class="num">4,434</div><div class="meta up">views · AVP 32.0% · 1 comment</div></td>
+        <td><div class="num">8,762</div><div class="meta up">views · AVP 32.3%</div></td>
+        <td><div class="num">33,226</div><div class="meta up">views · AVP 33.2%</div></td>
+        <td><div class="num">364,562</div><div class="meta">through 28 Aug · AVP 37%</div></td>
+      </tr>
+      <tr>
+        <td><div class="plat">Website · shieldmedicalgroup.com <span class="status watch">WATCH</span></div></td>
+        <td><div class="num">1,338</div><div class="meta dn">clicks · CTR 0.73% · pos 8.1</div></td>
+        <td><div class="num">3,589</div><div class="meta flat">CTR 0.72% · pos 7.9</div></td>
+        <td><div class="num">15,984</div><div class="meta">clicks · CTR 0.74% · pos 7.8</div></td>
+        <td><div class="num">114,876</div><div class="meta">through 28 Aug · CTR 0.63%</div></td>
+      </tr>
+      <tr>
+        <td><div class="plat">Facebook · Sebring <span class="status watch">WATCH</span></div></td>
+        <td><div class="num">322</div><div class="meta up">impr · DNA-kit video 278 · 1 rxn</div></td>
+        <td><div class="num">370</div><div class="meta">impr · 6 posts · 1 rxn</div></td>
+        <td><div class="num">2,570</div><div class="meta">impr · 31 posts · 19 rxn</div></td>
+        <td><div class="num">10,807</div><div class="meta">through 28 Aug</div></td>
+      </tr>
+      <tr>
+        <td><div class="plat">Facebook · Lake Wales <span class="status dead">DEAD</span></div></td>
+        <td><div class="num">6</div><div class="meta off">impr · 2 posts · 0 engagement</div></td>
+        <td><div class="num">6</div><div class="meta off">same 2 posts</div></td>
+        <td><div class="num">306</div><div class="meta">impr · 13 posts · 1 rxn</div></td>
+        <td><div class="num">2,523</div><div class="meta">through 28 Aug</div></td>
+      </tr>
+      <tr>
+        <td><div class="plat">Google Business · Sebring <span class="status dead">DEAD</span></div></td>
+        <td><div class="num">0</div><div class="meta off">GBP posts</div></td>
+        <td><div class="num">0</div><div class="meta off">GBP posts</div></td>
+        <td><div class="num">0</div><div class="meta off">GBP posts</div></td>
+        <td><div class="num">—</div><div class="meta">Insights not in</div></td>
+      </tr>
+      <tr>
+        <td><div class="plat">Google Business · Lake Wales <span class="status dead">DEAD</span></div></td>
+        <td><div class="num">0</div><div class="meta off">GBP posts</div></td>
+        <td><div class="num">0</div><div class="meta off">GBP posts</div></td>
+        <td><div class="num">0</div><div class="meta off">GBP posts</div></td>
+        <td><div class="num">—</div><div class="meta">Insights not in</div></td>
+      </tr>
+      <tr>
+        <td><div class="plat">TikTok · kundlasmd <span class="status dead">DEAD</span></div></td>
+        <td><div class="num">0</div><div class="meta off">metrics not refreshed</div></td>
+        <td><div class="num">0</div><div class="meta off">metrics not refreshed</div></td>
+        <td><div class="num">203</div><div class="meta">views · 2 old videos</div></td>
+        <td><div class="num">4,245</div><div class="meta">through 28 Aug</div></td>
+      </tr>
     </tbody>
   </table>
+
   <h2>What this means</h2>
   <div class="notes">
-    <p><strong>YouTube.</strong> Search is 71% of sourced views. 4,434 views in three complete days. AVP stuck at 32%. One comment in 72h. Next video is a 6-minute search answer, not a Short.</p>
-    <p><strong>Website.</strong> Daily clicks sliding 662 to 402. /forearm-pain/ wastes impressions at 0.71% CTR. Rewrite titles. Stop new articles.</p>
-    <p><strong>Facebook Sebring.</strong> DNA-kit video 278 impressions. That is most of the week. Class flyers still 0.</p>
-    <p><strong>Facebook Lake Wales.</strong> Two posts, 6 impressions. Do not call it back until a post clears 100 impressions.</p>
-    <p><strong>Google Business.</strong> Zero posts both offices. Insights not in.</p>
-    <p><strong>TikTok.</strong> Buffer is kundlasmd, not Shield Gmail. Do not post until one identity.</p>
+    <p><strong>YouTube.</strong> Search is 71% of sourced views. 4,434 views in three complete days (27–29 Aug). AVP is stuck at 32%. Aug 29 was 30.8%, the worst day in the week. 31 likes and 1 comment in 72h. Shorts are 65% of views and 20% of watch time. View leader is still the Short “7 top signs of throat cancer” (6,477 / 30d). Watch-time leader is still long-form “Throat Cancer: Early Symptoms…” (10,122 min). Catalog, not a practice. Next video is a 6-minute search answer, not a Short.</p>
+    <p><strong>Website.</strong> Volume is still working. Daily clicks are sliding: 662 on 20 Aug to 402 on 29 Aug. Position 8.1. Brand “shield medical group” still converts (7d 22 clicks, 23% CTR). /numb-heel/ earns the click at 2.7%. /forearm-pain/ does not: 402 clicks on 56,794 impressions at 0.71% CTR. National symptom encyclopedia. Not Sebring or Lake Wales PCP. Rewrite those two titles. Stop new articles.</p>
+    <p><strong>Facebook Sebring.</strong> The DNA-kit video Monday 6:00 PM did 278 impressions and 1 reaction. That is 86% of the 72h pile and 75% of the week. Tai Chi and Yoga still do 14–20 impressions and 0 engagement. The page moves when the post is Medicare video, not a class flyer. 30d winner is still 15 Aug heat + BP meds (1,188 impr).</p>
+    <p><strong>Facebook Lake Wales.</strong> Two Aug 31 posts, 6 impressions, 0 engagement. DNA-kit 3, thyroid 3. Then 14 days of nothing. 30d is 306 impressions, 83% of it one Alzheimer’s post from 4 Aug. Posting there is not distribution. Do not call it back until a post clears 100 impressions.</p>
+    <p><strong>Google Business Sebring.</strong> Zero Google posts. Maps Insights still not in this pull. The listing exists. You are not showing up as a Sebring PCP.</p>
+    <p><strong>Google Business Lake Wales.</strong> Same. Zero posts. Same Insights gap.</p>
+    <p><strong>TikTok.</strong> Buffer is kundlasmd, not Shield Gmail. Three Aug 31 posts went out. Metrics never refreshed. 30d is two old videos, 203 views. Do not post until it is one Shield account.</p>
   </div>
+
   <h2>Action Plan</h2>
   <div class="plan">
-    <p class="plan-lead">Today. One move per platform.</p>
+    <p class="plan-lead">Today. One move per platform. Do them in this order.</p>
     <ol>
-      <li><strong>Facebook Sebring.</strong> Medicare video format. Not Tai Chi.</li>
-      <li><strong>Facebook Lake Wales.</strong> Same asset 10 minutes later.</li>
-      <li><strong>Website.</strong> Rewrite /forearm-pain/ and /knee-numbness/. Stop new articles.</li>
-      <li><strong>GBP Sebring.</strong> One Google post this week.</li>
-      <li><strong>GBP Lake Wales.</strong> Mirror 10 minutes later.</li>
-      <li><strong>YouTube.</strong> 6-minute search answer. Query in first 20 seconds.</li>
-      <li><strong>TikTok.</strong> Do not post until Shield Gmail is in Buffer.</li>
+      <li><strong>Facebook Sebring.</strong> 7:30 AM post is another Medicare / local clinical warning in the DNA-kit / heat+BP video format. Not Tai Chi. Not Yoga.</li>
+      <li><strong>Facebook Lake Wales.</strong> Same asset at 7:40. Do not call the page back until a post clears 100 impressions.</li>
+      <li><strong>Website.</strong> Rewrite title and meta on /forearm-pain/ and /knee-numbness/. Stop new articles.</li>
+      <li><strong>Google Business Sebring.</strong> One Google post this week. Medical copy, office photo, hours, Medicare.</li>
+      <li><strong>Google Business Lake Wales.</strong> Mirror 10 minutes later. Address and hours in the first line.</li>
+      <li><strong>YouTube.</strong> Next video is a 6-minute search answer, not a Short. Query in the first 20 seconds.</li>
+      <li><strong>TikTok.</strong> Do not post until Buffer is the Shield Gmail account. One identity.</li>
     </ol>
   </div>
-  <p class="note">Sources: vidIQ, GSC, Buffer. Last complete day 29 Aug 2026. No invented numbers. Educational only. I do not post.</p>
+  <p class="note">Sources: vidIQ YouTube owner analytics (last complete day 29 Aug 2026). Google Search Console web, data_state=final, URL-prefix https://shieldmedicalgroup.com/. Buffer org Shield Medical Group: Facebook Sebring 6a57f15080cc80cdcabed00d, Lake Wales 6a57f15080cc80cdcabed00b, TikTok kundlasmd 6a94855e065799be4656e2f0. 1-year column is the 30 Aug pull through 28 Aug, not re-cut 1 Sep. GBP Maps Insights skipped. No invented numbers. Educational only. I do not post.</p>
 </body>
 </html>
