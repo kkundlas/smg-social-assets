@@ -1,0 +1,26 @@
+---
+name: Shield Medical brand
+description: >-
+  Use when creating or styling any branded visual for Shield Medical Group,
+  Kundlas MD, or related YouTube/social/Facebook assets.
+---
+Apply Shield Medical Group / Kundlas MD branding to any visual deliverable (videos, thumbnails, lower-thirds, slides, handouts, web, Facebook posts, reels, carousels).
+
+Default palette (~90% of each asset): Deep Teal `#12343B`, Signal Yellow `#F5D10A`, Warm Off-White `#F4F3EE`, Soft Black `#231F20`. Crimson `#96151D` is a regular accent (tags, left rails, small rules, emphasis). Use it alongside yellow and teal, never instead of yellow. Still never as body text on cream.
+
+Max four chromatic colors on one asset. Secondary (sparingly): Slate `#3C4651`, Steel Blue `#558BA5`, Sage `#788C5D`, Terracotta `#DA7756`, Gray `#888B8D`.
+
+Retired — never use: `#9A0718`, `#F72736`, `#0F62FE`, `#1F70C1`. If a Facebook reel or daily-post script still lists those, override them (Steel Blue instead of sky blue; Crimson instead of bright red).
+
+Typography: Bebas Neue for short all-caps display only (≤6 words, never body); Lato for everything else. Do not use Google Sans. Patient materials body ≥16px.
+
+Logos: `kundlas-md-logo.png` default (upper-left on YouTube scenes). Facebook uses `https://raw.githubusercontent.com/kkundlas/smg-social-assets/main/brand/shield-medical-group-logo.png` — never a placeholder S or generic caduceus.
+
+Facebook header/footer (match the Tai Chi/Yoga flyer samples):
+- Header: white bar, Shield logo centered, 3px Signal Yellow hairline under it. Do not left-align the logo on a teal bar. Do not put “NEWS DAY” or the weekday theme in the header.
+- Footer: teal bar, one centered line `shieldmedicalgroup.com  •  863-236-9550  •  Sebring & Lake Wales` (class-only Sebring posts may use the Casablanca Circle address instead). Separators are yellow dots. Contact text is white, not yellow. Pagination lives in the cream body, not the footer.
+
+Never Signal Yellow on white or off-white. Facebook daily posts are 1080×1920 Feed posts, not Stories.
+
+Patient-facing assets must include: Educational only; talk to your clinician.
+Patient-facing name: Dr. Kundlas (never Dr. Kulmeet Kundlas). List Sebring before Lake Wales.

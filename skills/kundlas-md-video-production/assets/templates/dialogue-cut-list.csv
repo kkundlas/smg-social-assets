@@ -1,0 +1,3 @@
+cut_id,source_in,source_out,category,removed_text,retained_take,complete_thought_check,medical_meaning_check,audio_continuity_check,picture_continuity_check,coverage_asset_id,confidence,status,notes
+CUT-001,,,retake,,,,,,,,high,planned,
+

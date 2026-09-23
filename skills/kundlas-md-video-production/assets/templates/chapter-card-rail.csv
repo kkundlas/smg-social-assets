@@ -1,0 +1,3 @@
+card_id,chapter_number,chapter_title,micro_scene_number,source_in,source_out,edited_in,edited_out,transcript_anchor,intended_meaning,viewer_takeaway,presenter_mode,visual_treatment,asset_ids,semantic_overlay_id,logo_owner,transition,estimated_duration,actual_duration,production_status,qc_status,evidence_path,notes
+C01-M01,1,,1,,,,,,,,presenter_full,talking_head,,,final_compositor,cut,,,planned,not_started,,
+
