@@ -1,0 +1,3 @@
+correction_id,timecode,original_text,corrected_text,reason,medical_uncertainty,status,notes
+TC-001,,,,,false,planned,
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "KundlasMD Video Production"
+  short_description: "Plan, edit, validate, and deliver KundlasMD videos"
+  default_prompt: "Use $kundlas-md-video-production to produce this KundlasMD video from source footage through verified delivery."

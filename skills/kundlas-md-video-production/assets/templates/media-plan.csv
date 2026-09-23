@@ -1,0 +1,3 @@
+plan_id,chapter_number,card_id,spoken_idea,viewer_takeaway,asset_type,asset_id,why_this_medium,presenter_mode,layout_key,text_strategy,estimated_duration,priority,status,notes
+PLAN-001,1,C01-M01,,,talking_head,,Authority and nuance,presenter_full,speaker,semantic_overlay_only,,required,planned,
+

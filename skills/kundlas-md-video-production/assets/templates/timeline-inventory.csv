@@ -1,0 +1,3 @@
+timeline_item_id,card_id,asset_id,track_type,timeline_in,timeline_out,presenter_mode,logo_instances,music_present,verified,proof_path,notes
+TL-001,C01-M01,,camera,,,,1,false,false,,
+

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "project_title": "",
+  "borumi_workspace_root": "",
+  "project_folder": "",
+  "storage_override_approved": false,
+  "plan_approved": false,
+  "autonomous_after_approval": true,
+  "current_stage": 1,
+  "stages": [
+    {"number": 1, "name": "Intake and source inventory", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 2, "name": "Source inspection and transcript normalization", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 3, "name": "Retakes and false starts", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 4, "name": "Pauses, filler, and continuity", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 5, "name": "First-30-second hook", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 6, "name": "SEO-informed chapters and micro-scenes", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 7, "name": "Card rail and media plan", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 8, "name": "Asset production", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 9, "name": "Asset inspection and freeze", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 10, "name": "Timeline assembly", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 11, "name": "Semantic overlays and presenter layouts", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 12, "name": "Rough-cut editorial audit", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 13, "name": "Small review export", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 14, "name": "Revision reconciliation", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 15, "name": "Final QC", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 16, "name": "Master and companion deliverables", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 17, "name": "Verified Descript new-project import", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""},
+    {"number": 18, "name": "Closeout and retrospective", "status": "not_started", "not_applicable": false, "evidence": [], "notes": ""}
+  ]
+}

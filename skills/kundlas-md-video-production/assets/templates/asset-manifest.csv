@@ -1,0 +1,3 @@
+asset_id,chapter_number,card_id,source_tool,purpose,filename,editable_source,local_export,proof_path,duration_seconds,width,height,has_embedded_text,logo_status,presenter_space,status,timeline_range,provenance_or_license,notes
+RM-001,1,C01-M01,Remotion,,,,,,,,,false,logo_free,not_required,planned,,,
+
