@@ -1,6 +1,6 @@
 # Shield Medical Group Facebook Posting Protocol
 
-Standing rule set by Kulmeet Kundlas MD on October 2, 2026.
+Standing rule set by Kulmeet Kundlas MD on October 2, 2026. Part of the mandatory global writing protocol in `docs/global-writing-protocol.md`.
 
 Applies to every Shield Medical Group Facebook page post, Sebring first and Lake Wales second. That includes Feed posts, Reels, Stories, group shares, and the Tuesday news item. It applies to all future work and to anything already scheduled in Buffer. Scheduled posts get re-checked and edited before they go out.
 
