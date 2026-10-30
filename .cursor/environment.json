@@ -1,0 +1,13 @@
+{
+  "name": "SMG social assets",
+  "install": "python3 -c \"import http.server, pathlib; assert pathlib.Path('docs/index.html').is_file(), 'docs/index.html missing'; print('docs site present, python http.server available')\"",
+  "terminals": [
+    {
+      "name": "docs-server",
+      "command": "python3 -m http.server 8000 --bind 0.0.0.0 --directory docs"
+    }
+  ],
+  "ports": [
+    8000
+  ]
+}
