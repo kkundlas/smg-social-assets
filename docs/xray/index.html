@@ -1,94 +1,159 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>X-Ray Evidence Scorecard · Shield Medical Group · Nov 6, 2026</title>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>X-Ray Evidence Scorecard · Shield Medical Group · Nov 7, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700&display=swap" rel="stylesheet"/>
 <style>
-body{margin:0;background:#F4F3EE;color:#12343B;font-family:Lato,sans-serif;line-height:1.5}
-header{background:#12343B;color:#F4F3EE;padding:28px 6vw}
-h1,h2,h3{font-family:'Bebas Neue',sans-serif;letter-spacing:.5px;margin:0}
-h1{font-size:44px;color:#F5D10A}header p{margin:6px 0 0}
-main{padding:24px 6vw;max-width:1200px}
-h2.sec{font-size:32px;margin-top:18px}
-table{width:100%;border-collapse:collapse;background:#fff;margin:12px 0 24px;font-size:15px}
-th{background:#12343B;color:#F5D10A;font-family:'Bebas Neue';font-size:20px;font-weight:400;padding:10px;text-align:left}
-td{padding:9px 10px;border-bottom:1px solid #ddd;vertical-align:top}td:first-child{font-weight:700}
-.flag{font-size:12px;color:#8a5a00}.skip{color:#777;font-weight:700}
-.diag{background:#fff;border-left:6px solid #12343B;padding:12px 16px;margin:10px 0}
-.lead{font-size:18px}
-.plan{background:#12343B;color:#F4F3EE;padding:20px 24px;margin:24px 0}.plan h2{color:#F5D10A;font-size:32px}
-.plan b.y{color:#F5D10A}
-footer{font-size:12px;padding:20px 6vw;color:#555}
+:root{--teal:#12343B;--yellow:#F5D10A;--cream:#F4F3EE;--ink:#12343B;--muted:#4a6066}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:Lato,system-ui,sans-serif;line-height:1.45}
+.wrap{max-width:1100px;margin:0 auto;padding:28px 20px 64px}
+header{background:var(--teal);color:#fff;border-radius:16px;padding:28px 28px 24px;margin-bottom:24px;position:relative;overflow:hidden}
+header::after{content:"";position:absolute;right:-40px;top:-40px;width:160px;height:160px;background:var(--yellow);opacity:.15;border-radius:50%}
+h1{font-family:"Bebas Neue",sans-serif;font-size:42px;letter-spacing:.04em;margin:0 0 6px;font-weight:400}
+.sub{opacity:.9;font-size:15px}
+.badge{display:inline-block;background:var(--yellow);color:var(--teal);font-weight:700;font-size:12px;padding:4px 10px;border-radius:999px;margin-top:12px}
+section{background:#fff;border:1px solid #e3e0d8;border-radius:14px;padding:22px 24px;margin-bottom:18px;box-shadow:0 1px 0 rgba(18,52,59,.04)}
+h2{font-family:"Bebas Neue",sans-serif;font-size:28px;letter-spacing:.03em;margin:0 0 12px;color:var(--teal);border-left:5px solid var(--yellow);padding-left:12px}
+h3{font-family:"Bebas Neue",sans-serif;font-size:22px;margin:0 0 10px;color:var(--teal)}
+p,li{font-size:15px}
+.muted{color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid #ece9e1}
+th{background:var(--teal);color:#fff;font-weight:700;font-size:13px}
+th:first-child{border-radius:8px 0 0 0}
+th:last-child{border-radius:0 8px 0 0}
+tr:nth-child(even) td{background:#faf9f6}
+.flag{display:inline-block;background:var(--teal);color:var(--yellow);font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;margin-left:6px}
+.warn{background:#fff8d6;border-left:4px solid var(--yellow);padding:12px 14px;border-radius:8px;margin:12px 0}
+.ok{background:#eef6f4;border-left:4px solid var(--teal);padding:12px 14px;border-radius:8px;margin:12px 0}
+.fail{background:#fdeeee;border-left:4px solid #b33;padding:12px 14px;border-radius:8px;margin:12px 0}
+ol.actions{padding-left:22px}
+ol.actions li{margin-bottom:10px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:720px){.grid{grid-template-columns:1fr}h1{font-size:32px}}
+footer{text-align:center;color:var(--muted);font-size:12px;margin-top:8px}
 </style>
 </head>
 <body>
-<header><h1>X-Ray Evidence Scorecard</h1>
-<p>Shield Medical Group · Kundlas MD · Sebring first · Nov 6, 2026 · generated Fri Nov 6, 2026, early morning ET</p>
-<p class="flag" style="color:#F4F3EE">Last complete data day per source: Facebook Sebring and Lake Wales Nov 5 (Meta page insights) · YouTube Nov 3 only (Nov 4–5 lagged empty — 3d incomplete) · Search Console Nov 3 (final) · TikTok Nov 5 (Buffer). No 24-hour window. Google Business performance PENDING. Windows: 3d Nov 3–5 · 7d Oct 30–Nov 5 · 30d Oct 7–Nov 5 · 1y Nov 6 2025–Nov 5 2026.</p></header>
-<main>
-<h2 class="sec">Diagnosis</h2>
-<div class="diag lead"><b>Lake Wales evening still moves views when a clip runs, but Nov 5 collapsed and engagements are still zero.</b> Nov 3: 243. Nov 4: 142. Nov 5: 24. Engagements 0 across the last 3 days and the last 7 days. People see it and do nothing. The Nov 3 6:10 PM Medicare Advantage renew clip is STILL duplicated — two live posts on the Lake Wales page.</div>
-<div class="diag"><b>Sebring rebound partially held; evenings are back in the queue from Nov 8.</b> Meta views Nov 3=121, Nov 4=285, Nov 5=154 (3d=560 vs prior 708). Engagements 18 in 3d (14 of them on Nov 4). Yesterday’s ask to restore Sebring evenings Nov 8–15 LANDED in Buffer. Nothing queued after Nov 15. Nov 5 ~8:17–8:22 PM ET accidental bulk dump (~40 posts) hit BOTH Sebring and Lake Wales — Buffer postCount spike.</div>
-<div class="diag"><b>TikTok still soft and the queue still dies Sunday.</b> Three-day views 94 (3 posts) vs yesterday’s 116. Clips Nov 3–5 got 46 / 30 / 18 views. Queue: 7:50 AM through Sun Nov 8 only; nothing after; no 6:30 PM.</div>
-<div class="diag"><b>YouTube 30-day slide narrative stays, but Nov 4–5 lag empties newest days.</b> Do not treat 57,660 as a new drop vs yesterday’s 63,731-through-Nov 2 — the window simply ends earlier. Current 3d is Nov 3 only (2,151 views) against a complete prior 3d of 6,438 (Oct 31–Nov 2). Top: Ivermectin/cancer long-form, throat-cancer Short. National, not Sebring or Lake Wales.</div>
-<div class="diag"><b>Website ~steady national symptom encyclopedia; GSC final only through Nov 3.</b> About 500+ clicks a day. Brand query “shield medical group sebring fl” still converts. This is not a local patient funnel.</div>
-<div class="diag"><b>Google Business mornings are posting; performance numbers are still missing.</b> Sebring 9:00 AM and Lake Wales 9:10 AM through Nov 5 sent; scheduled through ~Nov 17; some midday pairs Nov 9–13, 16–17. Performance (calls, directions, profile views): PENDING — no Monday Google-agent pull.</div>
+<div class="wrap">
+<header>
+  <h1>X-Ray Evidence Scorecard</h1>
+  <div class="sub">Shield Medical Group · Kundlas MD · Sebring first · Nov 7, 2026 · generated Sat Nov 7, 2026, early morning ET</div>
+  <div class="badge">Last complete day: Fri Nov 6 (Meta/TikTok/Buffer) · YouTube &amp; GSC final through Nov 4 — LAG</div>
+</header>
 
-<h2 class="sec">Sebring Facebook (Meta page insights)</h2>
-<table><tr><th>Window</th><th>3 days</th><th>7 days</th><th>30 days</th><th>1 year</th></tr>
-<tr><td>Media views</td><td>560 (Nov 3–5) vs 708</td><td>1,388 (Oct 30–Nov 5) vs 1,515</td><td>6,766</td><td class="skip">SKIPPED: Meta series covers about 90 days</td></tr>
-<tr><td>Unique viewers</td><td>203 vs 483</td><td>721 vs 1,040</td><td class="skip">SKIPPED</td><td>—</td></tr>
-<tr><td>Video views</td><td>100 vs 188</td><td>306 vs 423</td><td class="skip">SKIPPED</td><td>—</td></tr>
-<tr><td>Engagements</td><td>18 vs 8</td><td>28 vs 15</td><td>89</td><td>—</td></tr>
-</table>
-<p class="flag">Daily views Oct 30–Nov 5: 120, 305, 274, 129, 121, 285, 154. Eng daily: 2, 2, 2, 4, 1, 14, 3. Sebring evenings restored Nov 8–15 in Buffer; nothing after Nov 15. Nov 5 ~8:17 PM ET bulk dump (~40 posts) hit both pages.</p>
+<section>
+  <h2>Diagnosis</h2>
+  <p><strong>Lake Wales evening lane is dying again.</strong> When a clip ran, views moved (Nov 3: 243, Nov 4: 142). Then Nov 5: 24 and Nov 6: 12. Engagements still 0 across the last 7 days. People see the page and do nothing. Nov 3 Medicare Advantage renew clip now appears once in Graph (prior duplicate not found in Nov 3 window — may have been cleared).</p>
+  <p><strong>Sebring rebound held and improved.</strong> Meta views Nov 4=285, Nov 5=154, Nov 6=267 (3d=706 vs prior 524). Engagements 18 in 3d (14 of them still from Nov 4). Evenings Nov 8–15 remain in Buffer. Nothing queued after Nov 15. Nov 5 ~8:17 PM ET bulk dump history still relevant for reach noise.</p>
+  <p><strong>TikTok still soft and yesterday’s fix did NOT land.</strong> Three-day views 95 (3 posts) vs yesterday’s 94. Clips Nov 4–6 got 34 / 35 / 26 views. Queue: 7:50 AM through Sun Nov 8 only; nothing after; no 6:30 PM.</p>
+  <p><strong>YouTube</strong> final through Nov 4 (Nov 5–6 empty — lag). Complete 3d Nov 2–4 = 6,719 views. 30d through Nov 4 = 62,597. Top: Ivermectin/cancer long-form, throat-cancer Short. National, not Sebring or Lake Wales.</p>
+  <p><strong>Website</strong> ~steady national symptom encyclopedia; GSC final only through Nov 4. About 500+ clicks a day. Brand query still converts. Not a local patient funnel.</p>
+  <p><strong>Google Business</strong> mornings posting; scheduled through Nov 25 with some midday pairs. Performance (calls, directions, profile views): PENDING — no Monday Google-agent pull found.</p>
+</section>
 
-<h2 class="sec">Lake Wales Facebook (Meta page insights)</h2>
-<table><tr><th>Window</th><th>3 days</th><th>7 days</th><th>30 days</th><th>1 year</th></tr>
-<tr><td>Media views</td><td>409 (Nov 3–5) vs 457</td><td>1,001 vs 494</td><td>2,771</td><td class="skip">SKIPPED: Buffer Lake Wales metrics are zeros (missing data)</td></tr>
-<tr><td>Unique viewers</td><td>354 vs 430</td><td>912 vs 459</td><td>2,299</td><td>—</td></tr>
-<tr><td>Video views</td><td>109 vs 90</td><td>234 vs 81</td><td>626</td><td>—</td></tr>
-<tr><td>Engagements</td><td>0 vs 0</td><td>0 vs 3</td><td>near-zero</td><td>—</td></tr>
-</table>
-<p class="flag">Daily views Oct 30–Nov 5: 135, 231, 215, 11, 243, 142, 24. High days had a 6:10 PM clip; Nov 5 collapsed to 24. Nov 3 6:10 PM still published twice.</p>
+<section>
+  <h2>Sebring Facebook (Meta page insights)</h2>
+  <table>
+    <thead><tr><th>Window</th><th>3 days</th><th>7 days</th><th>30 days</th><th>1 year</th></tr></thead>
+    <tbody>
+      <tr><td>Media views</td><td>706 (Nov 4–6) vs 524</td><td>1,535 (Oct 31–Nov 6) vs 1,307</td><td>6,310</td><td>SKIPPED: Meta series covers about 90 days</td></tr>
+      <tr><td>Unique viewers</td><td>335 vs 276</td><td>848 vs 830</td><td>SKIPPED</td><td>—</td></tr>
+      <tr><td>Video views</td><td>127 vs 136</td><td>343 vs 346</td><td>1,496</td><td>—</td></tr>
+      <tr><td>Engagements</td><td>18 vs 7</td><td>27 vs 17</td><td>79</td><td>—</td></tr>
+    </tbody>
+  </table>
+  <p class="muted">Daily views Oct 30–Nov 6: 120, 305, 274, 129, 121, 285, 154, 267. Eng daily: 2, 2, 2, 4, 1, 14, 3, 1. Evenings Nov 8–15 in Buffer; nothing after Nov 15.</p>
+</section>
 
-<h2 class="sec">YouTube (vidIQ, through Nov 3 — Nov 4–5 lag)</h2>
-<table><tr><th>Window</th><th>3 days</th><th>7 days</th><th>30 days</th><th>1 year</th></tr>
-<tr><td>Views</td><td class="flag">LAG — Nov 3 only: 2,151 (prior complete 3d Oct 31–Nov 2 = 6,438)</td><td>10,568 (incomplete Oct 30–Nov 3)</td><td>57,660 — NOT comparable to yesterday’s 63,731 through Nov 2</td><td>459,437 (Nov 6 2025–Nov 5 2026)</td></tr>
-<tr><td>Engaged views</td><td>1,046</td><td>4,952</td><td>27,102</td><td>288,432</td></tr>
-<tr><td>Avg view %</td><td>37.7%</td><td>35.9%</td><td>35.9%</td><td>36.8%</td></tr>
-<tr><td>Net subscribers</td><td>+10</td><td>+32</td><td>+185</td><td>+1,450</td></tr>
-<tr><td>Watch minutes</td><td>2,123</td><td>9,572</td><td>49,035</td><td>453,414</td></tr>
-</table>
-<p class="flag">Nov 4–5 lagged empty in vidIQ — do not treat 30d 57,660 as a new drop. Top 7d: Ivermectin 2024 · throat Short 1,290 · Throat long 979 · hypo foods 841 · tinnitus 584.</p>
+<section>
+  <h2>Lake Wales Facebook (Meta page insights)</h2>
+  <table>
+    <thead><tr><th>Window</th><th>3 days</th><th>7 days</th><th>30 days</th><th>1 year</th></tr></thead>
+    <tbody>
+      <tr><td>Media views</td><td>178 (Nov 4–6) vs 469</td><td>878 vs 614</td><td>2,475</td><td>SKIPPED: Buffer Lake Wales metrics are zeros (missing data)</td></tr>
+      <tr><td>Unique viewers</td><td>162 vs 414</td><td>794 vs 578</td><td>2,051</td><td>—</td></tr>
+      <tr><td>Video views</td><td>40 vs 122</td><td>201</td><td>576</td><td>—</td></tr>
+      <tr><td>Engagements</td><td>0 vs 0</td><td>0 vs 3</td><td>20</td><td>—</td></tr>
+    </tbody>
+  </table>
+  <p class="muted">Daily views Oct 31–Nov 6: 231, 215, 11, 243, 142, 24, 12. High days had a 6:10 PM clip; Nov 5–6 collapsed. Engagements dead for a full week.</p>
+</section>
 
-<h2 class="sec">TikTok (Buffer: views and watch time)</h2>
-<table><tr><th>Window</th><th>3 days</th><th>7 days</th><th>30 days</th><th>1 year</th></tr>
-<tr><td>Views</td><td>94 (Nov 3–5, 3 posts) vs yesterday 116</td><td>658 (9 posts)</td><td>4,053 (46 posts)</td><td>12,870 (100 posts)</td></tr>
-<tr><td>Watch time</td><td>34.6 min</td><td>446 min</td><td>757 min</td><td>1,508 min</td></tr>
-<tr><td>Reactions</td><td>15</td><td>128</td><td>177</td><td>313</td></tr>
-</table>
-<p class="flag">Clips Nov 3–5: 46 / 30 / 18 views. Queue: 7:50 AM through Sun Nov 8 only; nothing after; no 6:30 PM. Buffer reach still noisy — trust views and watch time.</p>
+<section>
+  <h2>YouTube (vidIQ, through Nov 4 — Nov 5–6 lag)</h2>
+  <table>
+    <thead><tr><th>Window</th><th>3 days</th><th>7 days</th><th>30 days</th><th>1 year</th></tr></thead>
+    <tbody>
+      <tr><td>Views</td><td>6,719 (Nov 2–4 complete) vs prior 6,167</td><td>14,860 (Oct 29–Nov 4)</td><td>62,597 (Oct 6–Nov 4)</td><td>460,945 (Nov 7 2025–Nov 6 2026)</td></tr>
+      <tr><td>Engaged views</td><td>3,220</td><td>7,024</td><td>29,449</td><td>288,966</td></tr>
+      <tr><td>Avg view %</td><td>36.1%</td><td>35.7%</td><td>36.0%</td><td>36.8%</td></tr>
+      <tr><td>Net subscribers</td><td>+23</td><td>+45</td><td>+202</td><td>+1,456</td></tr>
+      <tr><td>Watch minutes</td><td>6,336</td><td>13,441</td><td>53,475</td><td>454,775</td></tr>
+    </tbody>
+  </table>
+  <p class="muted">Nov 5–6 lagged empty in vidIQ. Top ~7d: Ivermectin long-form 2,407 · throat Short 1,253 · Throat long 1,015 · hypo foods 808 · tinnitus Short 551.</p>
+</section>
 
-<h2 class="sec">Website (Search Console, final through Nov 3)</h2>
-<table><tr><th>Window</th><th>3 days</th><th>7 days</th><th>30 days</th><th>1 year</th></tr>
-<tr><td>Clicks</td><td class="flag">LAG — Nov 3 only: 556</td><td>2,464 (incomplete through Nov 3)</td><td>14,055</td><td>145,811</td></tr>
-<tr><td>Impressions</td><td>72,799</td><td>313,264</td><td>1,773,852</td><td>22,076,832</td></tr>
-<tr><td>CTR / position</td><td>0.76% / 6.8</td><td>0.79% / 6.7</td><td>0.79% / 6.6</td><td>0.66% / 6.4</td></tr>
-</table>
-<p class="flag">About 500+ clicks a day. National symptom pages dominate; brand query “shield medical group sebring fl” still converts. Final data only through Nov 3.</p>
+<section>
+  <h2>TikTok (Buffer: views and watch time)</h2>
+  <table>
+    <thead><tr><th>Window</th><th>3 days</th><th>7 days</th><th>30 days</th><th>1 year</th></tr></thead>
+    <tbody>
+      <tr><td>Views</td><td>95 (Nov 4–6, 3 posts) vs yesterday 94</td><td>555 (8 posts)</td><td>3,817 (45 posts)</td><td>12,965 (101 posts)</td></tr>
+      <tr><td>Watch time</td><td>25.5 min</td><td>443 min</td><td>735 min</td><td>1,519 min</td></tr>
+      <tr><td>Reactions</td><td>16</td><td>135</td><td>180</td><td>321</td></tr>
+    </tbody>
+  </table>
+  <p class="muted">Clips Nov 4–6: 34 / 35 / 26 views. Queue: 7:50 AM through Sun Nov 8 only; nothing after; no 6:30 PM. Buffer reach still noisy — trust views and watch time.</p>
+</section>
 
-<h2 class="sec">Google Business</h2>
-<table><tr><th>Window</th><th>3 days</th><th>7 days</th><th>30 days</th><th>1 year</th></tr>
-<tr><td>Posts</td><td>Mornings Sebring 9:00 / LW 9:10 through Nov 5 sent</td><td>Scheduled through ~Nov 17; some midday pairs Nov 9–13, 16–17</td><td>Mornings still queued</td><td>—</td></tr>
-<tr><td>Performance</td><td>PENDING</td><td>PENDING</td><td>PENDING</td><td>PENDING</td></tr>
-</table>
+<section>
+  <h2>Website (Search Console, final through Nov 4)</h2>
+  <table>
+    <thead><tr><th>Window</th><th>3 days</th><th>7 days</th><th>30 days</th><th>1 year</th></tr></thead>
+    <tbody>
+      <tr><td>Clicks</td><td>1,607 (Nov 2–4)</td><td>3,505</td><td>15,094</td><td>146,277</td></tr>
+      <tr><td>Impressions</td><td>210,534</td><td>446,853</td><td>1,907,856</td><td>22,136,251</td></tr>
+      <tr><td>CTR / position</td><td>0.76% / 6.7</td><td>0.78% / 6.7</td><td>0.79% / 6.6</td><td>0.66% / 6.4</td></tr>
+    </tbody>
+  </table>
+  <p class="muted">About 500+ clicks a day. National symptom pages dominate. Final data only through Nov 4 (Nov 5–6 lag).</p>
+</section>
 
-<div class="plan"><h2>Action Plan (pending Kulmeet's yes)</h2>
-<p><b class="y">1. PRIMARY — Tiktok agent:</b> deliver Nov 9–15 plan TODAY with daily clip at 6:30 PM EST (not only 7:50 AM). Queue currently empty after Sun Nov 8.</p>
-<p><b class="y">2. Facebook Agent:</b> (a) flag Nov 3 LW duplicate for Kulmeet to delete; (b) extend FB video queue past Nov 15 (nothing after); (c) investigate/report the Nov 5 ~8:17 PM ET bulk dump of ~40 posts on both pages; (d) keep evenings; push symptom clips over Medicare in midday/evening.</p>
-<p><b class="y">Watch:</b> Lake Wales engagements on evening clips; whether Nov 5 dump polluted reach; TikTok after plan lands.</p></div>
+<section>
+  <h2>Google Business</h2>
+  <table>
+    <thead><tr><th>Window</th><th>3 days</th><th>7 days</th><th>30 days</th><th>1 year</th></tr></thead>
+    <tbody>
+      <tr><td>Posts</td><td>Mornings Sebring 9:00 / LW 9:10 through Nov 6 sent</td><td>Scheduled through Nov 25; midday pairs on several days</td><td>Mornings still queued</td><td>—</td></tr>
+      <tr><td>Performance</td><td>PENDING</td><td>PENDING</td><td>PENDING</td><td>PENDING</td></tr>
+    </tbody>
+  </table>
+</section>
 
-<h2 class="sec">Did yesterday's fix move the number?</h2>
-<div class="diag">FB Nov 9–15 / Sebring evenings restored Nov 8–15: <b>YES, landed in Buffer</b>. Lake Wales evening views: still works when clip runs (243 / 142) but Nov 5=24 soft; engagements still 0. TikTok Nov 9–15 evening plan: <b>NOT landed</b>; queue still ends Nov 8. Duplicate Nov 3 Lake Wales: <b>still live</b>.</div>
-</main>
-<footer>Sources: Meta page insights via Composio (pages 367939403827947, 908221382369899), Buffer (queue, TikTok, Google Business posts), vidIQ (channel UCHSj1rAW7GHqahkulER5mew), Google Search Console (shieldmedicalgroup.com). No patient information. X-ray recommends only; Kulmeet approves every queue change.</footer>
-</body></html>
+<section>
+  <h2>Action Plan (pending Kulmeet's yes)</h2>
+  <ol class="actions">
+    <li><strong>PRIMARY — Tiktok agent:</strong> Yesterday’s fill past Nov 8 did NOT land. Deliver Nov 9–22 plan TODAY with daily clip at 6:30 PM EST (not only 7:50 AM). Queue currently empty after Sun Nov 8.</li>
+    <li><strong>Facebook Agent:</strong> (a) extend FB video queue past Nov 15 on both Sebring and Lake Wales (nothing after); (b) keep evenings; push symptom clips over Medicare in midday/evening especially on Lake Wales where engagements are dead; (c) confirm Nov 3 LW renew duplicate status with Kulmeet if a second copy is still live outside Graph window.</li>
+  </ol>
+  <p class="muted">Watch: Lake Wales evening views after next clip; TikTok after plan lands; Sebring evenings through Nov 15 holding.</p>
+</section>
+
+<section>
+  <h2>Did yesterday's fix move the number?</h2>
+  <div class="fail"><strong>TikTok fill past Nov 8: NO — not landed.</strong> Queue still ends Sun Nov 8 mornings only; no 6:30 PM; nothing scheduled Nov 9+.</div>
+  <div class="ok"><strong>Sebring evenings Nov 8–15:</strong> Still present in Buffer from prior fix. Nov 6 Sebring Meta views bounced to 267.</div>
+  <div class="warn"><strong>Lake Wales evening views:</strong> Still works when a clip runs (243 / 142) but Nov 5–6 collapsed to 24 / 12; engagements still 0 for 7 days.</div>
+</section>
+
+<footer>Shield Medical Group · X-Ray weekday evidence scorecard · PHI out · Never invent numbers</footer>
+</div>
+</body>
+</html>
