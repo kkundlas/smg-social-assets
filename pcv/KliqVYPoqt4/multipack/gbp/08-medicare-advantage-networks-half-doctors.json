@@ -1,0 +1,52 @@
+{
+  "post_id": "om-medicare-08",
+  "title": "Medicare Advantage Networks Cover About Half the Doctors",
+  "headline": [
+    "IS YOUR DOCTOR COVERED?",
+    "CHECK THE NETWORK"
+  ],
+  "headline_colors": [
+    "white",
+    "yellow"
+  ],
+  "icons_gbp": [
+    {
+      "type": "stethoscope"
+    },
+    {
+      "type": "magnifier"
+    }
+  ],
+  "icons": [
+    {
+      "type": "stethoscope"
+    },
+    {
+      "type": "magnifier"
+    }
+  ],
+  "gbp_preset": "v2",
+  "gbp_support": "none",
+  "tag": "",
+  "footer_sep": "space",
+  "footer": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "footer_gbp": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "gbp_bullets": [
+    "Networks cover about half of doctors",
+    "Do not rely on the directory alone",
+    "Confirm your doctors for next year"
+  ],
+  "parent_long_url": "https://youtu.be/KliqVYPoqt4",
+  "slug": "medicare-advantage-networks-half-doctors",
+  "nn": "08",
+  "date": "2026-11-29",
+  "claimed_stats": [
+    "KFF 2022: Medicare Advantage enrollees had access, on average, to 48 percent of the physicians available on traditional Medicare in the same area"
+  ]
+}

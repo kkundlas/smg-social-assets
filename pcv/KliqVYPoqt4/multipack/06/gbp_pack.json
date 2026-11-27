@@ -1,0 +1,39 @@
+{
+  "title": "Prior Authorization Is Far More Common in Medicare Advantage",
+  "headline_lines": [
+    "PRIOR AUTHORIZATION",
+    "THE VOLUME IS MUCH HIGHER"
+  ],
+  "script": "I'll give you the prior authorization numbers, no spin.\n\nTraditional Medicare had just over 625,000 prior authorization requests in fiscal year 2024. Medicare Advantage had 52.8 million determinations, about 85 times as many.\n\nThat's not a perfectly even comparison, because traditional Medicare requires prior authorization for far fewer services. But the difference in volume is real.\n\nA KFF study from January 2026 found 4.1 million full or partial denials out of those 52.8 million determinations, about 7.7 percent.\n\nThis shows up most in post-acute care, like inpatient rehab or long-term care hospital stays.\n\nKFF, summarizing HHS Office of Inspector General data from June 2024 for large Medicare Advantage organizations, found a 54 percent initial denial rate for inpatient rehabilitation requests, and 65 percent for long-term care hospital requests, compared with under 8 percent overall. Watch the full video, link in the description.",
+  "slug": "prior-authorization-medicare-advantage",
+  "parent_long_url": "https://youtu.be/KliqVYPoqt4",
+  "thumb_path": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/06/thumb_vertical.png",
+  "yt_short_url": null,
+  "claimed_stats": [
+    "FY2024: just over 625,000 traditional Medicare prior auth requests",
+    "52.8 million Medicare Advantage determinations, about 85 times as many",
+    "KFF Jan 2026: 4.1 million full or partial denials, about 7.7 percent",
+    "KFF summarizing HHS OIG June 2024: 54 percent initial denial for inpatient rehab, 65 percent for long-term care hospital, under 8 percent overall"
+  ],
+  "takeaway": "KFF, summarizing HHS Office of Inspector General data from June 2024 for large Medicare Advantage organizations, found a 54 percent initial denial rate for inpatient rehabilitation requests, and 65 percent for long-term care hospital requests, compared with under 8 percent overall.",
+  "brand": "Shield Medical Group",
+  "offices": [
+    "Sebring",
+    "Lake Wales"
+  ],
+  "batch": "KliqVYPoqt4",
+  "nn": "06",
+  "gbp_bullets": [
+    "Advantage volume is much higher",
+    "Denials cluster in post-acute care",
+    "The comparison is not perfectly even"
+  ],
+  "gbp_image": "/workspace/gbp-KliqVYPoqt4-2026-11-26/images/06-prior-authorization-medicare-advantage.png",
+  "caption_sebring": "/workspace/gbp-KliqVYPoqt4-2026-11-26/captions/06-prior-authorization-medicare-advantage-sebring.txt",
+  "caption_lake_wales": "/workspace/gbp-KliqVYPoqt4-2026-11-26/captions/06-prior-authorization-medicare-advantage-lake-wales.txt",
+  "schedule": {
+    "date": "2026-11-28",
+    "sebring_et": "18:00",
+    "lake_wales_et": "18:10"
+  }
+}

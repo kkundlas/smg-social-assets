@@ -1,0 +1,53 @@
+{
+  "post_id": "om-medicare-01",
+  "title": "Your Medicare Plan May End. Medicare Itself Is Not Canceling",
+  "headline": [
+    "GOT A LETTER?",
+    "MEDICARE ISN'T ENDING"
+  ],
+  "headline_colors": [
+    "white",
+    "yellow"
+  ],
+  "icons_gbp": [
+    {
+      "type": "clipboard"
+    },
+    {
+      "type": "insurance_card"
+    }
+  ],
+  "icons": [
+    {
+      "type": "clipboard"
+    },
+    {
+      "type": "insurance_card"
+    }
+  ],
+  "gbp_preset": "v2",
+  "gbp_support": "none",
+  "tag": "",
+  "footer_sep": "space",
+  "footer": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "footer_gbp": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "gbp_bullets": [
+    "Private plans may not renew",
+    "Federal Medicare is still there",
+    "Read your letter carefully"
+  ],
+  "parent_long_url": "https://youtu.be/KliqVYPoqt4",
+  "slug": "medicare-plan-may-end-not-canceling",
+  "nn": "01",
+  "date": "2026-11-27",
+  "claimed_stats": [
+    "5,553 plans to about 5,532",
+    "roughly 21 fewer plans, net"
+  ]
+}

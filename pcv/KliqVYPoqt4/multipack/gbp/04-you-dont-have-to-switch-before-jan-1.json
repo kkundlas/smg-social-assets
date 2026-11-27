@@ -1,0 +1,56 @@
+{
+  "post_id": "om-medicare-04",
+  "title": "You Don't Have to Switch Before January 1",
+  "headline": [
+    "MUST YOU SWITCH NOW?",
+    "OTHER WINDOWS MAY APPLY"
+  ],
+  "headline_colors": [
+    "white",
+    "yellow"
+  ],
+  "icons_gbp": [
+    {
+      "type": "calendar",
+      "label": "PLAN"
+    },
+    {
+      "type": "clock_check"
+    }
+  ],
+  "icons": [
+    {
+      "type": "calendar",
+      "label": "PLAN"
+    },
+    {
+      "type": "clock_check"
+    }
+  ],
+  "gbp_preset": "v2",
+  "gbp_support": "none",
+  "tag": "",
+  "footer_sep": "space",
+  "footer": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "footer_gbp": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "gbp_bullets": [
+    "Use Open Enrollment if you can",
+    "A leaving plan can mean more time",
+    "Medigap windows can run longer"
+  ],
+  "parent_long_url": "https://youtu.be/KliqVYPoqt4",
+  "slug": "you-dont-have-to-switch-before-jan-1",
+  "nn": "04",
+  "date": "2026-11-28",
+  "claimed_stats": [
+    "Open Enrollment Oct 15 to Dec 7, 2026 for 2027 coverage",
+    "Special Enrollment Period can run through the last day of February",
+    "Medigap window 60 days before through 63 days after, 123 days total"
+  ]
+}

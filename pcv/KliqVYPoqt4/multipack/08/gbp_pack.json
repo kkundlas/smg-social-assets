@@ -1,0 +1,36 @@
+{
+  "title": "Medicare Advantage Networks Cover About Half the Doctors",
+  "headline_lines": [
+    "IS YOUR DOCTOR COVERED?",
+    "CHECK THE NETWORK"
+  ],
+  "script": "KFF found that in 2022, Medicare Advantage enrollees had access, on average, to 48 percent of the physicians available to someone on traditional Medicare in the same area.\n\nThat's about half. So the network you assume is wide may be narrower than traditional Medicare in the same place.\n\nThat's one reason it's worth double-checking that your actual doctors are in-network for next year, not just trusting the directory.\n\nDon't just trust the directory. Confirm the doctors you already see, not just a name on a list.\n\nThis matters if you want to keep the same doctors in 2027. A plan can look fine on paper and still leave a doctor out of network.\n\nSo before you stay or switch, confirm your doctors are in-network for next year. Watch the full video, link in the description.",
+  "slug": "medicare-advantage-networks-half-doctors",
+  "parent_long_url": "https://youtu.be/KliqVYPoqt4",
+  "thumb_path": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/08/thumb_vertical.png",
+  "yt_short_url": null,
+  "claimed_stats": [
+    "KFF 2022: Medicare Advantage enrollees had access, on average, to 48 percent of the physicians available on traditional Medicare in the same area"
+  ],
+  "takeaway": "So before you stay or switch, confirm your doctors are in-network for next year.",
+  "brand": "Shield Medical Group",
+  "offices": [
+    "Sebring",
+    "Lake Wales"
+  ],
+  "batch": "KliqVYPoqt4",
+  "nn": "08",
+  "gbp_bullets": [
+    "Networks cover about half of doctors",
+    "Do not rely on the directory alone",
+    "Confirm your doctors for next year"
+  ],
+  "gbp_image": "/workspace/gbp-KliqVYPoqt4-2026-11-26/images/08-medicare-advantage-networks-half-doctors.png",
+  "caption_sebring": "/workspace/gbp-KliqVYPoqt4-2026-11-26/captions/08-medicare-advantage-networks-half-doctors-sebring.txt",
+  "caption_lake_wales": "/workspace/gbp-KliqVYPoqt4-2026-11-26/captions/08-medicare-advantage-networks-half-doctors-lake-wales.txt",
+  "schedule": {
+    "date": "2026-11-29",
+    "sebring_et": "15:00",
+    "lake_wales_et": "15:10"
+  }
+}

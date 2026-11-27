@@ -1,0 +1,52 @@
+{
+  "post_id": "om-medicare-05",
+  "title": "The Medigap Guaranteed-Issue Window Has a Tradeoff",
+  "headline": [
+    "PLAN LEAVING?",
+    "KNOW THE TRADEOFF"
+  ],
+  "headline_colors": [
+    "white",
+    "yellow"
+  ],
+  "icons_gbp": [
+    {
+      "type": "insurance_card"
+    },
+    {
+      "type": "warning"
+    }
+  ],
+  "icons": [
+    {
+      "type": "insurance_card"
+    },
+    {
+      "type": "warning"
+    }
+  ],
+  "gbp_preset": "v2",
+  "gbp_support": "none",
+  "tag": "",
+  "footer_sep": "space",
+  "footer": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "footer_gbp": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "gbp_bullets": [
+    "A federal right, not a loophole",
+    "It is tied to Original Medicare",
+    "Another Advantage plan is different"
+  ],
+  "parent_long_url": "https://youtu.be/KliqVYPoqt4",
+  "slug": "medigap-guaranteed-issue-tradeoff",
+  "nn": "05",
+  "date": "2026-11-28",
+  "claimed_stats": [
+    "123-day guaranteed-issue window for certain Medigap policies"
+  ]
+}

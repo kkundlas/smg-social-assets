@@ -1,0 +1,55 @@
+{
+  "post_id": "om-medicare-06",
+  "title": "Prior Authorization Is Far More Common in Medicare Advantage",
+  "headline": [
+    "PRIOR AUTHORIZATION",
+    "THE VOLUME IS MUCH HIGHER"
+  ],
+  "headline_colors": [
+    "white",
+    "yellow"
+  ],
+  "icons_gbp": [
+    {
+      "type": "clipboard"
+    },
+    {
+      "type": "hospital"
+    }
+  ],
+  "icons": [
+    {
+      "type": "clipboard"
+    },
+    {
+      "type": "hospital"
+    }
+  ],
+  "gbp_preset": "v2",
+  "gbp_support": "none",
+  "tag": "",
+  "footer_sep": "space",
+  "footer": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "footer_gbp": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "gbp_bullets": [
+    "Advantage volume is much higher",
+    "Denials cluster in post-acute care",
+    "The comparison is not perfectly even"
+  ],
+  "parent_long_url": "https://youtu.be/KliqVYPoqt4",
+  "slug": "prior-authorization-medicare-advantage",
+  "nn": "06",
+  "date": "2026-11-28",
+  "claimed_stats": [
+    "FY2024: just over 625,000 traditional Medicare prior auth requests",
+    "52.8 million Medicare Advantage determinations, about 85 times as many",
+    "KFF Jan 2026: 4.1 million full or partial denials, about 7.7 percent",
+    "KFF summarizing HHS OIG June 2024: 54 percent initial denial for inpatient rehab, 65 percent for long-term care hospital, under 8 percent overall"
+  ]
+}

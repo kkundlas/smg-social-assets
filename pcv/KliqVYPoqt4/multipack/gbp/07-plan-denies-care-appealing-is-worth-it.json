@@ -1,0 +1,53 @@
+{
+  "post_id": "om-medicare-07",
+  "title": "If Your Plan Denies Care, Appealing Is Worth Your Time",
+  "headline": [
+    "THE PLAN SAID NO?",
+    "AN APPEAL IS WORTH IT"
+  ],
+  "headline_colors": [
+    "white",
+    "yellow"
+  ],
+  "icons_gbp": [
+    {
+      "type": "speech"
+    },
+    {
+      "type": "check"
+    }
+  ],
+  "icons": [
+    {
+      "type": "speech"
+    },
+    {
+      "type": "check"
+    }
+  ],
+  "gbp_preset": "v2",
+  "gbp_support": "none",
+  "tag": "",
+  "footer_sep": "space",
+  "footer": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "footer_gbp": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "gbp_bullets": [
+    "Few denials are ever appealed",
+    "Most filed appeals were overturned",
+    "Not proof every denial was wrong"
+  ],
+  "parent_long_url": "https://youtu.be/KliqVYPoqt4",
+  "slug": "plan-denies-care-appealing-is-worth-it",
+  "nn": "07",
+  "date": "2026-11-29",
+  "claimed_stats": [
+    "Only 11.5 percent of 4.1 million denials were appealed",
+    "80.7 percent of those appeals were overturned"
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "batch": "KliqVYPoqt4",
+  "parent_long_url": "https://youtu.be/KliqVYPoqt4",
+  "status": "video cuts + GBP images QC-passed; hosted pending; Buffer needsAuth, nothing scheduled",
+  "updated_et": "2026-11-27 12:58 AM America/New_York",
+  "brand_split": {
+    "facebook": "Shield Medical Group",
+    "instagram": "Shield Medical Group",
+    "tiktok": "Kundlas MD",
+    "youtube_pcv": "Primary Care Voice",
+    "gbp": "Shield Medical Group"
+  },
+  "logo_layout": "8b locked: wide ~720px top-center y~160, intro/outro same as PCV; asset swap only. Shield wordmark rebuilt from official logo to fill the 1238x245 canvas (original padded files kept as shield-NN.padded-logo.mp4 for 01-02 only, not used as finals).",
+  "qc_summary": {
+    "cuts": 18,
+    "fails": 0,
+    "gates": "safezone, loudness I~-14 +/-1, TP<=-1, size<20MB, motion still-runs<=1.5s"
+  },
+  "items": [
+    {
+      "parent": "KliqVYPoqt4",
+      "nn": "01",
+      "title": "Your Medicare Plan May End. Medicare Itself Is Not Canceling",
+      "slug": "medicare-plan-may-end-not-canceling",
+      "pcv_youtube": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/01/pcv-01-hyperframes_v4.mp4",
+      "shield_fb_ig_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/01/shield-01.mp4",
+      "kundlas_tiktok_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/01/kundlas-01.mp4",
+      "thumb": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/01/thumb_vertical.png",
+      "video_cuts_status": "RENDERED_AND_QC_PASSED",
+      "qc": {
+        "shield": {
+          "ok": true,
+          "mb": 7.78,
+          "I": -14.2,
+          "TP": -1.2,
+          "dur": 64.5,
+          "safezone": true
+        },
+        "kundlas": {
+          "ok": true,
+          "mb": 7.83,
+          "I": -14.2,
+          "TP": -1.2,
+          "dur": 64.5,
+          "safezone": true
+        }
+      },
+      "captions": [
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/01/CAPTION_facebook.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/01/CAPTION_instagram.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/01/CAPTION_tiktok.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/01/CAPTION_gbp_sebring.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/01/CAPTION_gbp_lake_wales.txt"
+      ],
+      "gbp_pack": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/01/gbp_pack.json",
+      "gbp_image": "/workspace/gbp-KliqVYPoqt4-2026-11-26/images/01-medicare-plan-may-end-not-canceling.png",
+      "script": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/01/SCRIPT.txt",
+      "sources": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/01/SOURCES.md",
+      "handoff": "assets ready; Buffer needsAuth so nothing scheduled"
+    },
+    {
+      "parent": "KliqVYPoqt4",
+      "nn": "02",
+      "title": "The 5 Million Losing Coverage Number Isn't Accurate",
+      "slug": "five-million-losing-coverage-number",
+      "pcv_youtube": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/02/pcv-02-hyperframes_v4.mp4",
+      "shield_fb_ig_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/02/shield-02.mp4",
+      "kundlas_tiktok_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/02/kundlas-02.mp4",
+      "thumb": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/02/thumb_vertical.png",
+      "video_cuts_status": "RENDERED_AND_QC_PASSED",
+      "qc": {
+        "shield": {
+          "ok": true,
+          "mb": 6.52,
+          "I": -14.9,
+          "TP": -1.3,
+          "dur": 56.5,
+          "safezone": true
+        },
+        "kundlas": {
+          "ok": true,
+          "mb": 6.63,
+          "I": -14.9,
+          "TP": -1.3,
+          "dur": 56.5,
+          "safezone": true
+        }
+      },
+      "captions": [
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/02/CAPTION_facebook.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/02/CAPTION_instagram.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/02/CAPTION_tiktok.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/02/CAPTION_gbp_sebring.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/02/CAPTION_gbp_lake_wales.txt"
+      ],
+      "gbp_pack": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/02/gbp_pack.json",
+      "gbp_image": "/workspace/gbp-KliqVYPoqt4-2026-11-26/images/02-five-million-losing-coverage-number.png",
+      "script": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/02/SCRIPT.txt",
+      "sources": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/02/SOURCES.md",
+      "handoff": "assets ready; Buffer needsAuth so nothing scheduled"
+    },
+    {
+      "parent": "KliqVYPoqt4",
+      "nn": "03",
+      "title": "You're Not Locked Out of Original Medicare",
+      "slug": "not-locked-out-of-original-medicare",
+      "pcv_youtube": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/03/pcv-03-hyperframes_v4.mp4",
+      "shield_fb_ig_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/03/shield-03.mp4",
+      "kundlas_tiktok_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/03/kundlas-03.mp4",
+      "thumb": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/03/thumb_vertical.png",
+      "video_cuts_status": "RENDERED_AND_QC_PASSED",
+      "qc": {
+        "shield": {
+          "ok": true,
+          "mb": 8.31,
+          "I": -14.2,
+          "TP": -1.3,
+          "dur": 69.3,
+          "safezone": true
+        },
+        "kundlas": {
+          "ok": true,
+          "mb": 8.39,
+          "I": -14.2,
+          "TP": -1.3,
+          "dur": 69.3,
+          "safezone": true
+        }
+      },
+      "captions": [
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/03/CAPTION_facebook.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/03/CAPTION_instagram.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/03/CAPTION_tiktok.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/03/CAPTION_gbp_sebring.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/03/CAPTION_gbp_lake_wales.txt"
+      ],
+      "gbp_pack": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/03/gbp_pack.json",
+      "gbp_image": "/workspace/gbp-KliqVYPoqt4-2026-11-26/images/03-not-locked-out-of-original-medicare.png",
+      "script": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/03/SCRIPT.txt",
+      "sources": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/03/SOURCES.md",
+      "handoff": "assets ready; Buffer needsAuth so nothing scheduled"
+    },
+    {
+      "parent": "KliqVYPoqt4",
+      "nn": "04",
+      "title": "You Don't Have to Switch Before January 1",
+      "slug": "you-dont-have-to-switch-before-jan-1",
+      "pcv_youtube": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/04/pcv-04-hyperframes_v4.mp4",
+      "shield_fb_ig_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/04/shield-04.mp4",
+      "kundlas_tiktok_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/04/kundlas-04.mp4",
+      "thumb": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/04/thumb_vertical.png",
+      "video_cuts_status": "RENDERED_AND_QC_PASSED",
+      "qc": {
+        "shield": {
+          "ok": true,
+          "mb": 6.97,
+          "I": -14.5,
+          "TP": -1.3,
+          "dur": 58.5,
+          "safezone": true
+        },
+        "kundlas": {
+          "ok": true,
+          "mb": 7.08,
+          "I": -14.5,
+          "TP": -1.3,
+          "dur": 58.5,
+          "safezone": true
+        }
+      },
+      "captions": [
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/04/CAPTION_facebook.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/04/CAPTION_instagram.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/04/CAPTION_tiktok.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/04/CAPTION_gbp_sebring.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/04/CAPTION_gbp_lake_wales.txt"
+      ],
+      "gbp_pack": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/04/gbp_pack.json",
+      "gbp_image": "/workspace/gbp-KliqVYPoqt4-2026-11-26/images/04-you-dont-have-to-switch-before-jan-1.png",
+      "script": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/04/SCRIPT.txt",
+      "sources": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/04/SOURCES.md",
+      "handoff": "assets ready; Buffer needsAuth so nothing scheduled"
+    },
+    {
+      "parent": "KliqVYPoqt4",
+      "nn": "05",
+      "title": "The Medigap Guaranteed-Issue Window Has a Tradeoff",
+      "slug": "medigap-guaranteed-issue-tradeoff",
+      "pcv_youtube": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/05/pcv-05-hyperframes_v4.mp4",
+      "shield_fb_ig_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/05/shield-05.mp4",
+      "kundlas_tiktok_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/05/kundlas-05.mp4",
+      "thumb": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/05/thumb_vertical.png",
+      "video_cuts_status": "RENDERED_AND_QC_PASSED",
+      "qc": {
+        "shield": {
+          "ok": true,
+          "mb": 6.58,
+          "I": -14.5,
+          "TP": -1.3,
+          "dur": 57.965,
+          "safezone": true
+        },
+        "kundlas": {
+          "ok": true,
+          "mb": 6.65,
+          "I": -14.5,
+          "TP": -1.3,
+          "dur": 57.965,
+          "safezone": true
+        }
+      },
+      "captions": [
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/05/CAPTION_facebook.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/05/CAPTION_instagram.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/05/CAPTION_tiktok.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/05/CAPTION_gbp_sebring.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/05/CAPTION_gbp_lake_wales.txt"
+      ],
+      "gbp_pack": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/05/gbp_pack.json",
+      "gbp_image": "/workspace/gbp-KliqVYPoqt4-2026-11-26/images/05-medigap-guaranteed-issue-tradeoff.png",
+      "script": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/05/SCRIPT.txt",
+      "sources": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/05/SOURCES.md",
+      "handoff": "assets ready; Buffer needsAuth so nothing scheduled"
+    },
+    {
+      "parent": "KliqVYPoqt4",
+      "nn": "06",
+      "title": "Prior Authorization Is Far More Common in Medicare Advantage",
+      "slug": "prior-authorization-medicare-advantage",
+      "pcv_youtube": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/06/pcv-06-hyperframes_v4.mp4",
+      "shield_fb_ig_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/06/shield-06.mp4",
+      "kundlas_tiktok_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/06/kundlas-06.mp4",
+      "thumb": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/06/thumb_vertical.png",
+      "video_cuts_status": "RENDERED_AND_QC_PASSED",
+      "qc": {
+        "shield": {
+          "ok": true,
+          "mb": 8.91,
+          "I": -14.4,
+          "TP": -1.1,
+          "dur": 75.8,
+          "safezone": true
+        },
+        "kundlas": {
+          "ok": true,
+          "mb": 8.94,
+          "I": -14.4,
+          "TP": -1.1,
+          "dur": 75.8,
+          "safezone": true
+        }
+      },
+      "captions": [
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/06/CAPTION_facebook.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/06/CAPTION_instagram.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/06/CAPTION_tiktok.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/06/CAPTION_gbp_sebring.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/06/CAPTION_gbp_lake_wales.txt"
+      ],
+      "gbp_pack": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/06/gbp_pack.json",
+      "gbp_image": "/workspace/gbp-KliqVYPoqt4-2026-11-26/images/06-prior-authorization-medicare-advantage.png",
+      "script": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/06/SCRIPT.txt",
+      "sources": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/06/SOURCES.md",
+      "handoff": "assets ready; Buffer needsAuth so nothing scheduled"
+    },
+    {
+      "parent": "KliqVYPoqt4",
+      "nn": "07",
+      "title": "If Your Plan Denies Care, Appealing Is Worth Your Time",
+      "slug": "plan-denies-care-appealing-is-worth-it",
+      "pcv_youtube": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/07/pcv-07-hyperframes_v4.mp4",
+      "shield_fb_ig_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/07/shield-07.mp4",
+      "kundlas_tiktok_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/07/kundlas-07.mp4",
+      "thumb": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/07/thumb_vertical.png",
+      "video_cuts_status": "RENDERED_AND_QC_PASSED",
+      "qc": {
+        "shield": {
+          "ok": true,
+          "mb": 5.94,
+          "I": -14.1,
+          "TP": -1.2,
+          "dur": 50.4,
+          "safezone": true
+        },
+        "kundlas": {
+          "ok": true,
+          "mb": 6.04,
+          "I": -14.1,
+          "TP": -1.2,
+          "dur": 50.4,
+          "safezone": true
+        }
+      },
+      "captions": [
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/07/CAPTION_facebook.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/07/CAPTION_instagram.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/07/CAPTION_tiktok.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/07/CAPTION_gbp_sebring.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/07/CAPTION_gbp_lake_wales.txt"
+      ],
+      "gbp_pack": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/07/gbp_pack.json",
+      "gbp_image": "/workspace/gbp-KliqVYPoqt4-2026-11-26/images/07-plan-denies-care-appealing-is-worth-it.png",
+      "script": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/07/SCRIPT.txt",
+      "sources": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/07/SOURCES.md",
+      "handoff": "assets ready; Buffer needsAuth so nothing scheduled"
+    },
+    {
+      "parent": "KliqVYPoqt4",
+      "nn": "08",
+      "title": "Medicare Advantage Networks Cover About Half the Doctors",
+      "slug": "medicare-advantage-networks-half-doctors",
+      "pcv_youtube": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/08/pcv-08-hyperframes_v4.mp4",
+      "shield_fb_ig_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/08/shield-08.mp4",
+      "kundlas_tiktok_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/08/kundlas-08.mp4",
+      "thumb": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/08/thumb_vertical.png",
+      "video_cuts_status": "RENDERED_AND_QC_PASSED",
+      "qc": {
+        "shield": {
+          "ok": true,
+          "mb": 7.61,
+          "I": -14.2,
+          "TP": -1.4,
+          "dur": 62.1,
+          "safezone": true
+        },
+        "kundlas": {
+          "ok": true,
+          "mb": 7.69,
+          "I": -14.2,
+          "TP": -1.4,
+          "dur": 62.1,
+          "safezone": true
+        }
+      },
+      "captions": [
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/08/CAPTION_facebook.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/08/CAPTION_instagram.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/08/CAPTION_tiktok.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/08/CAPTION_gbp_sebring.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/08/CAPTION_gbp_lake_wales.txt"
+      ],
+      "gbp_pack": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/08/gbp_pack.json",
+      "gbp_image": "/workspace/gbp-KliqVYPoqt4-2026-11-26/images/08-medicare-advantage-networks-half-doctors.png",
+      "script": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/08/SCRIPT.txt",
+      "sources": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/08/SOURCES.md",
+      "handoff": "assets ready; Buffer needsAuth so nothing scheduled"
+    },
+    {
+      "parent": "KliqVYPoqt4",
+      "nn": "09",
+      "title": "A Checklist Before December 7",
+      "slug": "checklist-before-open-enrollment-deadline",
+      "pcv_youtube": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/09/pcv-09-hyperframes_v4.mp4",
+      "shield_fb_ig_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/09/shield-09.mp4",
+      "kundlas_tiktok_cut": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/09/kundlas-09.mp4",
+      "thumb": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/09/thumb_vertical.png",
+      "video_cuts_status": "RENDERED_AND_QC_PASSED",
+      "qc": {
+        "shield": {
+          "ok": true,
+          "mb": 9.0,
+          "I": -14.6,
+          "TP": -1.4,
+          "dur": 74.8,
+          "safezone": true
+        },
+        "kundlas": {
+          "ok": true,
+          "mb": 9.03,
+          "I": -14.6,
+          "TP": -1.4,
+          "dur": 74.8,
+          "safezone": true
+        }
+      },
+      "captions": [
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/09/CAPTION_facebook.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/09/CAPTION_instagram.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/09/CAPTION_tiktok.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/09/CAPTION_gbp_sebring.txt",
+        "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/09/CAPTION_gbp_lake_wales.txt"
+      ],
+      "gbp_pack": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/09/gbp_pack.json",
+      "gbp_image": "/workspace/gbp-KliqVYPoqt4-2026-11-26/images/09-checklist-before-open-enrollment-deadline.png",
+      "script": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/09/SCRIPT.txt",
+      "sources": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/09/SOURCES.md",
+      "handoff": "assets ready; Buffer needsAuth so nothing scheduled"
+    }
+  ]
+}

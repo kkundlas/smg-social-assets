@@ -1,0 +1,53 @@
+{
+  "post_id": "om-medicare-09",
+  "title": "A Checklist Before December 7",
+  "headline": [
+    "OPEN ENROLLMENT",
+    "A SIMPLE CHECKLIST"
+  ],
+  "headline_colors": [
+    "white",
+    "yellow"
+  ],
+  "icons_gbp": [
+    {
+      "type": "clipboard"
+    },
+    {
+      "type": "check"
+    }
+  ],
+  "icons": [
+    {
+      "type": "clipboard"
+    },
+    {
+      "type": "check"
+    }
+  ],
+  "gbp_preset": "v2",
+  "gbp_support": "none",
+  "tag": "",
+  "footer_sep": "space",
+  "footer": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "footer_gbp": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "gbp_bullets": [
+    "Check mail for plan change notices",
+    "Confirm doctors and medications",
+    "Get free help from SHIP"
+  ],
+  "parent_long_url": "https://youtu.be/KliqVYPoqt4",
+  "slug": "checklist-before-open-enrollment-deadline",
+  "nn": "09",
+  "date": "2026-11-29",
+  "claimed_stats": [
+    "SHIP: about 2,000 local offices, helping up to 4 million people a year, none work on commission",
+    "Medicare.gov says a Plan Non-Renewal Notice is mailed in October if your plan is leaving"
+  ]
+}

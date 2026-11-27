@@ -1,0 +1,55 @@
+{
+  "post_id": "om-medicare-02",
+  "title": "The 5 Million Losing Coverage Number Isn't Accurate",
+  "headline": [
+    "5 MILLION DROPPED?",
+    "CHECK YOUR OWN PLAN"
+  ],
+  "headline_colors": [
+    "white",
+    "yellow"
+  ],
+  "icons_gbp": [
+    {
+      "type": "warning"
+    },
+    {
+      "type": "magnifier"
+    }
+  ],
+  "icons": [
+    {
+      "type": "warning"
+    },
+    {
+      "type": "magnifier"
+    }
+  ],
+  "gbp_preset": "v2",
+  "gbp_support": "none",
+  "tag": "",
+  "footer_sep": "space",
+  "footer": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "footer_gbp": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "gbp_bullets": [
+    "The high-end figure is too high",
+    "Published range is much lower",
+    "Most can stay in a current plan"
+  ],
+  "parent_long_url": "https://youtu.be/KliqVYPoqt4",
+  "slug": "five-million-losing-coverage-number",
+  "nn": "02",
+  "date": "2026-11-27",
+  "claimed_stats": [
+    "5 million (high-end, not accurate)",
+    "about 2.4 million in ending or non-renewed plans",
+    "2.8 to 3.15 million who must pick a new plan",
+    "about 8 in 10 can stay in their current plan"
+  ]
+}

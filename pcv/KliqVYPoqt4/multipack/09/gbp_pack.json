@@ -1,0 +1,37 @@
+{
+  "title": "A Checklist Before December 7",
+  "headline_lines": [
+    "OPEN ENROLLMENT",
+    "A SIMPLE CHECKLIST"
+  ],
+  "script": "Here's a practical checklist before December 7.\n\nFirst, check your mail for an Annual Notice of Change, and a Plan Non-Renewal Notice. Medicare.gov says that notice is mailed in October if your plan is leaving.\n\nThis matters even if your plan isn't going anywhere. Copays, drug lists, and doctor networks can change in January on the same plan.\n\nSecond, don't trust a directory or a TV ad number alone. Call your plan and your doctor's billing office to confirm your doctors and medications for 2027. Write down who you spoke with, and the date and time.\n\nThird, get free, unbiased help from SHIP, the State Health Insurance Assistance Program. Federally funded, about 2,000 local offices help up to 4 million people a year, and none work on commission.\n\nFind a counselor at shiphelp.org, or call 1-800-MEDICARE, that's 1-800-633-4227. Watch the full video, link in the description.",
+  "slug": "checklist-before-open-enrollment-deadline",
+  "parent_long_url": "https://youtu.be/KliqVYPoqt4",
+  "thumb_path": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/09/thumb_vertical.png",
+  "yt_short_url": null,
+  "claimed_stats": [
+    "SHIP: about 2,000 local offices, helping up to 4 million people a year, none work on commission",
+    "Medicare.gov says a Plan Non-Renewal Notice is mailed in October if your plan is leaving"
+  ],
+  "takeaway": "Find a counselor at shiphelp.org, or call 1-800-MEDICARE, that's 1-800-633-4227.",
+  "brand": "Shield Medical Group",
+  "offices": [
+    "Sebring",
+    "Lake Wales"
+  ],
+  "batch": "KliqVYPoqt4",
+  "nn": "09",
+  "gbp_bullets": [
+    "Check mail for plan change notices",
+    "Confirm doctors and medications",
+    "Get free help from SHIP"
+  ],
+  "gbp_image": "/workspace/gbp-KliqVYPoqt4-2026-11-26/images/09-checklist-before-open-enrollment-deadline.png",
+  "caption_sebring": "/workspace/gbp-KliqVYPoqt4-2026-11-26/captions/09-checklist-before-open-enrollment-deadline-sebring.txt",
+  "caption_lake_wales": "/workspace/gbp-KliqVYPoqt4-2026-11-26/captions/09-checklist-before-open-enrollment-deadline-lake-wales.txt",
+  "schedule": {
+    "date": "2026-11-29",
+    "sebring_et": "18:00",
+    "lake_wales_et": "18:10"
+  }
+}

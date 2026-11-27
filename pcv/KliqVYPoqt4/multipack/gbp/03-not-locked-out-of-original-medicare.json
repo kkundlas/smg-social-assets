@@ -1,0 +1,53 @@
+{
+  "post_id": "om-medicare-03",
+  "title": "You're Not Locked Out of Original Medicare",
+  "headline": [
+    "LOCKED OUT?",
+    "NOT OF MEDICARE"
+  ],
+  "headline_colors": [
+    "white",
+    "yellow"
+  ],
+  "icons_gbp": [
+    {
+      "type": "insurance_card"
+    },
+    {
+      "type": "check"
+    }
+  ],
+  "icons": [
+    {
+      "type": "insurance_card"
+    },
+    {
+      "type": "check"
+    }
+  ],
+  "gbp_preset": "v2",
+  "gbp_support": "none",
+  "tag": "",
+  "footer_sep": "space",
+  "footer": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "footer_gbp": [
+    "shieldmedicalgroup.com",
+    "Sebring & Lake Wales"
+  ],
+  "gbp_bullets": [
+    "Original Medicare stays open",
+    "Medigap can be harder later",
+    "A denial risk is not a lockout"
+  ],
+  "parent_long_url": "https://youtu.be/KliqVYPoqt4",
+  "slug": "not-locked-out-of-original-medicare",
+  "nn": "03",
+  "date": "2026-11-27",
+  "claimed_stats": [
+    "KFF 2023: 74 percent of full-year Medicare Advantage enrollees, about 20.9 million people, had a health condition that could lead to a Medigap denial outside a guaranteed-issue period",
+    "one-time six-month Medigap window after first turning 65 and enrolling in Part B"
+  ]
+}
