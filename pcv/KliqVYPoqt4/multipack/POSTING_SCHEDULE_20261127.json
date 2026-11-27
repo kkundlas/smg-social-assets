@@ -112,7 +112,7 @@
   "youtube_public_go_live": "Scheduled to go PUBLIC at each Short's slot time (12:00, 3:00, 6:00 PM ET). Not Unlisted. If Buffer cannot set privacy=public on a scheduled YouTube post, upload Private in YouTube Studio and set scheduled publish to that slot.",
   "github_repo": "kkundlas/smg-social-assets",
   "github_prefix": "pcv/KliqVYPoqt4/multipack/",
-  "github_commit": null,
+  "github_commit": "2d664ccc27c70921b9b2d5b1909898e4556b64a7",
   "qc": {
     "file": "/workspace/openmontage/shorts/KliqVYPoqt4/export/PCV_chalk/rebrand_qc.json",
     "cuts": 18,
@@ -1953,5 +1953,7 @@
     },
     "youtube_privacy": "public at the shifted slot times",
     "do_not_schedule_until": "Buffer is reconnected, a duplicate check is run, and GBP weekend/weekday caption lines are refreshed if the shifted dates are used."
-  }
+  },
+  "github_commit_url": "https://github.com/kkundlas/smg-social-assets/commit/2d664ccc27c70921b9b2d5b1909898e4556b64a7",
+  "github_raw_prefix": "https://raw.githubusercontent.com/kkundlas/smg-social-assets/main/pcv/KliqVYPoqt4/multipack/"
 }
